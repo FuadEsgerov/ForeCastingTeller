@@ -1,14 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using ForecastingTeller.API.Models;
 
 namespace ForecastingTeller.API.DTOs
 {
-    public enum NotificationType
-    {
-        System,
-        TarotReading,
-        Forecast,
-        UserActivity
-    }
 
     public class NotificationResponse
     {
