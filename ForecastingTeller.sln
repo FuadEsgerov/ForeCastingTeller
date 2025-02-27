@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForecastingTeller.API", "ForecastingTeller.API\ForecastingTeller.API.csproj", "{0A5F03FF-898B-4683-AFA8-2DE8E672C9A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForecastingTeller.Tests", "ForecastingTeller.Tests\ForecastingTeller.Tests.csproj", "{275BE0D8-9137-41D6-9C72-AF8C42FC9F84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A5F03FF-898B-4683-AFA8-2DE8E672C9A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A5F03FF-898B-4683-AFA8-2DE8E672C9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A5F03FF-898B-4683-AFA8-2DE8E672C9A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A5F03FF-898B-4683-AFA8-2DE8E672C9A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{275BE0D8-9137-41D6-9C72-AF8C42FC9F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{275BE0D8-9137-41D6-9C72-AF8C42FC9F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{275BE0D8-9137-41D6-9C72-AF8C42FC9F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{275BE0D8-9137-41D6-9C72-AF8C42FC9F84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
