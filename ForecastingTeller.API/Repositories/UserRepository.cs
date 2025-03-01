@@ -104,6 +104,11 @@ namespace ForecastingTeller.API.Repositories
             await _context.SaveChangesAsync();
             return profile;
         }
+        public async Task<User> GetByEmailVerificationTokenAsync(string token)
+        {
+            return await _context.Users
+                .FirstOrDefaultAsync(u => u.EmailVerificationToken == token);
+        }
     }
 
 }

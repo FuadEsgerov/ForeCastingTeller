@@ -18,5 +18,6 @@ namespace ForecastingTeller.API.Repositories
         Task<bool> ValidateCredentialsAsync(string email, string passwordHash);
         Task<UserProfile> GetUserProfileAsync(Guid userId);
         Task<UserProfile> UpdateUserProfileAsync(UserProfile profile);
+        Task<User> GetByEmailVerificationTokenAsync(string token);
     }
 }
