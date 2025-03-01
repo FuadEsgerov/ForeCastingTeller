@@ -11,6 +11,8 @@ namespace ForecastingTeller.API.Data
         {
         }
 
+        
+
         public DbSet<User> Users { get; set; }
         public DbSet<UserProfile> UserProfiles { get; set; }
         public DbSet<Notification> Notifications { get; set; }

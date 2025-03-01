@@ -14,7 +14,7 @@ namespace ForecastingTeller.API.Models
         public DateTime LastLoginAt { get; set; }
         public bool IsEmailVerified { get; set; } = false;
         public string EmailVerificationToken { get; set; }
-        public string PasswordResetToken { get; set; }
+        public string PasswordResetToken { get; set; } = string.Empty;  
         public DateTime? PasswordResetExpiry { get; set; }
 
         public UserProfile Profile { get; set; }
