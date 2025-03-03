@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ForecastingTeller.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b52f28432138cd6671d841262b45444a4fd4b1a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8759d0264d86bf7d0c40ff8a6896b01b1fa2e958")]
 [assembly: System.Reflection.AssemblyProductAttribute("ForecastingTeller.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ForecastingTeller.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
