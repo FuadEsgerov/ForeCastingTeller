@@ -1,5 +1,6 @@
 using ForecastingTeller.API.Data;
 using ForecastingTeller.API.Infrastructure;
+using ForecastingTeller.API.Middleware;
 using ForecastingTeller.API.Repositories;
 using ForecastingTeller.API.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -41,10 +42,16 @@ builder.Services.AddAuthentication(options =>
 
 // Register repositories
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ITarotRepository, TarotRepository>();
+builder.Services.AddScoped<IForecastRepository, ForecastRepository>();
 
 
 // Register services
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IUserProfileService, UserProfileService>();
+builder.Services.AddScoped<ITarotService, TarotService>();
+builder.Services.AddScoped<IForecastingService, ForecastingService>();
 
 
 // Register infrastructure
@@ -121,6 +128,7 @@ if (app.Environment.IsDevelopment())
 else
 {
     // Use exception handling middleware in production
+    app.UseMiddleware<ExceptionMiddleware>();
 
 }
 
@@ -130,7 +138,7 @@ app.UseCors("CorsPolicy");
 app.UseAuthentication();
 app.UseAuthorization();
 
-
+app.UseMiddleware<RequestLoggingMiddleware>();
 app.MapControllers();
 
 app.Run();

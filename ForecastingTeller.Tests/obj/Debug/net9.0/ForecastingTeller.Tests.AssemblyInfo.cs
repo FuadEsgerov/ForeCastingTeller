@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ForecastingTeller.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8759d0264d86bf7d0c40ff8a6896b01b1fa2e958")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4f8d634868932ce0343147fcb8f9986c3dc656a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ForecastingTeller.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ForecastingTeller.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
